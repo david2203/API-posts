@@ -12,8 +12,6 @@
             $error->message = "id not specified";
             $error->code = "0004";
             echo json_encode($error);
-
-
         }
 
     ?>
